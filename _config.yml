@@ -1,0 +1,62 @@
+# Site settings
+title: Overconstrained
+email: hfossli@gmail.com
+description: "Information about Cassowary, its community and different implementations."
+skills: Information about Cassowary, the constraint solving algorithm, and its community.
+fork-me-link: https://github.com/hfossli/Overconstrained
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 00b6ff
+  primaryContrast: ffffff
+  primaryDiffuse: 1d445c
+  secondary: 233140
+  secondaryContrast: ffffff
+  secondary-dark: 233140
+  tertiary: ffffff
+  tertiaryContrast: 242424
+
+colors:
+  primary:
+    main: 00b6ff
+    subtle: 1d445c
+    contrast: ffffff
+  secondary:
+    main: 233140
+    subtle: 628c9c
+    contrast: ffffff
+  tertiary:
+    main: ffffff
+    subtle: aaa
+    contrast: 242424
+
+# Footer settings
+footer:
+  contact: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Credits content
+credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,11 @@
+---
+layout: default
+maintainers: thegrid.io
+homepage: http://gridstylesheets.org/
+repo: https://github.com/gss/engine/
+language: Javascript
+name: Grid Style Sheets
+preamble: GSS is a CSS preprocessor & JS runtime that harnesses Cassowary.js
+description: GSS reimagines CSS layout & replaces the browser’s layout engine with one that harnesses the Cassowary Constraint Solver — the same algorithm Apple uses to compute native layout.
+
+---
