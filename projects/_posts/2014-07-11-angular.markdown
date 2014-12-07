@@ -1,0 +1,11 @@
+---
+layout: default
+maintainers: Alex Birkett
+homepage: http://thenikso.github.io/angular-autolayout/
+repo: https://github.com/thenikso/angular-autolayout
+language: Javascript
+name: Angular Auto Layout
+preamble: Constraint based layout for your AngularJS apps
+description: Constraint based layout paradigm for AngularJS web applications inspired by Apple's Auto Layout for iOS and OS X. <br /><br />HTML and CSS have been designed to present a page style layout like one that you might find on a newspaper. However, nowadays those technologies are also used to for layout of applications that should resemble native ones. <br /><br />Many features that are needed to properly layout an application are missing from CSS. For example, there is no way to specify that two elements on a page should have the same height! <br /><br />With angular-autolayout, you can use the same layout technology that Apple gives to native iOS and OS X developers for your HTML5 app.
+
+---

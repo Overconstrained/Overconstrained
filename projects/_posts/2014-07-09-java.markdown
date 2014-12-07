@@ -1,0 +1,11 @@
+---
+layout: default
+maintainers: Russell Keith-Magee
+homepage: https://github.com/pybee/cassowary-java
+repo: https://github.com/pybee/cassowary-java
+language: Java
+name: Cassowary Java
+preamble: A pure Java implementation of the Cassowary constraint algorithm, and an Android ViewGroup layout manager that uses it.
+description: Cassowary-java is comprised of two parts:<ul><li>A pure Java implementation of the Cassowary constraint-solving algorithm.</li><li>An Android ViewGroup that uses Cassowary to perform the layout of widgets.</li></ul>
+
+---
