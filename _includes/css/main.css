@@ -289,11 +289,8 @@ section h2 {
     }
 }
 
-#projects
-
-#projects .projects-item {
-    right: 0;
-    margin: 0 0 15px;
+#projects .project-item {
+    margin: 0 0 25px 0 ;
 }
 
 #projects .projects-item .projects-link {
