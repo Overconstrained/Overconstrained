@@ -1,7 +1,7 @@
 Overconstrained
 ===============
 
-This is the repo backing [overconstrained.io](https://overconstrained.io).
+This is the repo backing [overconstrained.io](http://overconstrained.io).
 
 ## Want a project listed?
 
