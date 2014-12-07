@@ -2,33 +2,31 @@
 title: Overconstrained
 email: hfossli@gmail.com
 description: "Information about Cassowary, its community and different implementations."
-skills: Information about Cassowary, the constraint solving algorithm, and its community.
+skills: A collection of information about Cassowary and its community.
 fork-me-link: https://github.com/hfossli/Overconstrained
 
 # Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 00b6ff
-  primaryContrast: ffffff
-  primaryDiffuse: 1d445c
-  secondary: 233140
-  secondaryContrast: ffffff
-  secondary-dark: 233140
-  tertiary: ffffff
-  tertiaryContrast: 242424
-
 colors:
   primary:
     main: 00b6ff
     subtle: 1d445c
     contrast: ffffff
+    callout: 1d445c
   secondary:
     main: 233140
     subtle: 628c9c
     contrast: ffffff
+    callout: 6bdc48
   tertiary:
     main: ffffff
     subtle: aaa
     contrast: 242424
+    callout: 6bdc48
+  quaternary:
+    main: 1d445c
+    subtle: 00b6ff
+    contrast: ffffff
+    callout: 6bdc48
 
 # Footer settings
 footer:
