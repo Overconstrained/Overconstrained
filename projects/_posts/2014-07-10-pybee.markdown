@@ -3,7 +3,7 @@ layout: default
 maintainers: Russell Keith-Magee
 homepage: https://github.com/pybee/cassowary
 repo: https://github.com/pybee/cassowary
-language: Pyhton
+language: Python
 name: Pybee Cassowary
 preamble: A pure Python implementation of the Cassowary constraint-solving algorithm.
 description: Cassowary is compatible with both Python 2 or Python 3.
