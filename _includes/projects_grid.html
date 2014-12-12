@@ -8,23 +8,29 @@
                     <hr class="star">
                 </div>
             </div>
-            <div class="row">
-                {% for post in site.categories['projects'] %}
-                    <div class="col-sm-4 project-item">
+
+            {% for platform in site.project-platforms %}
+              <div class="row">
+
+                    <h2 class="">{{ platform.title }}</h2>
+
+                    {% capture category %}projects_{{ platform.slug }}{% endcapture %}
+
+                    {% for post in site.categories[category] %}
+
+                      {% capture slug %}{{ category }}_{{ post.title }}{% endcapture %}
+                      <div class="col-sm-4 project-item">
                         <h3>
-                          <a href="#projectsModal-{{ post.title }}" class="projects-link" data-toggle="modal">{{ post.name }}
+                          <a href="#projectsModal-{{ slug }}" class="projects-link" data-toggle="modal">{{ post.name }}
                           </a>
                         </h3>
                         <p class="subtle">{{ post.language }}</p>
                         <p>{{ post.preamble }}</p>
-                    </div>
-                {% endfor %}
-            </div>
-            <hr class="star" />
-            <div class="row">
-              <div class="col-lg-4 col-lg-offset-4 text-center">
-                <p>Want a project listed? <a href="{{ site.fork-me-link }}">Fork me</a>!
+                      </div>
+                    {% endfor %}
+
               </div>
-            </div>
+            {% endfor %}
+            
         </div>
     </section>

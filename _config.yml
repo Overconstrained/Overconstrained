@@ -1,59 +1,70 @@
 # Site settings
-title: Overconstrained
+title: overconstrained
 email: hfossli@gmail.com
 description: "Information about Cassowary, its community and different implementations."
-skills: A collection of information about Cassowary and its community.
+skills: Cassowary projects and its community.
 fork-me-link: https://github.com/hfossli/Overconstrained
+
+project-platforms:
+  - title: Web
+    slug: web
+  - title: C++
+    slug: cplusplus
+  - title: Java
+    slug: java
+  - title: Python
+    slug: python
+  - title: Objective-C
+    slug: objectivec
+  - title: Smalltalk
+    slug: smalltalk
 
 # Color settings (hex-codes without the leading hash-tag)
 colors:
+  navbar:
+    main: 1a242f
+    subtle: 000000
+    contrast: ffffff
+    callout: 000000
+    link: d8a416
+    link-focus: d8a416
+    link-focus-background: ffffff
+  footer:
+    main: 1a242f
+    subtle: 000000
+    contrast: ffffff
+    callout: 000000
+    link: d8a416
+    link-focus: d8a416
+    link-focus-background: ffffff
   primary:
-    main: 00b6ff
-    subtle: 1d445c
+    main: 233140
+    subtle: 233140
     contrast: ffffff
     callout: 1d445c
+    link: d8a416
+    link-focus: d8a416
   secondary:
     main: 233140
     subtle: 628c9c
     contrast: ffffff
     callout: 6bdc48
+    link: d8a416
+    link-focus: d8a416
   tertiary:
-    main: ffffff
+    main: e4e4e4
     subtle: aaa
-    contrast: 242424
+    contrast: 3d403e
     callout: 6bdc48
+    link: d8a416
+    link-focus: d8a416
   quaternary:
     main: 1d445c
     subtle: 00b6ff
     contrast: ffffff
     callout: 6bdc48
-
-# Footer settings
-footer:
-  contact: Location
-  social: Around the Web
-  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Credits content
-credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+    link: d8a416
+    link-focus: d8a416
 
 # Build settings
 markdown: kramdown

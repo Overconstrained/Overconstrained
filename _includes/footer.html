@@ -4,6 +4,8 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
+                      <h3>Hosted by</h3>
+                      <p>This site is hosted by github and maintained by <a href="https://github.com/hfossli/">hfossli</a>.</p>
                         <h3>{{ site.footer.location }}</h3>
                         <p>
                             {% for adress in site.address %}
@@ -12,27 +14,12 @@
                         </p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
-		                    {% endfor %}
-                        </ul>
+                        <h3>Got suggestions?</h3>
+                        <p>The site is powered by Jekyll and  <a href="https://github.com/hfossli/Overconstrained">is open source on github</a>. You can contact <a href="https://github.com/hfossli/">hfossli</a> or send pull requests.</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                    	<!-- copyright notice or whatever you want at the bottom -->
+                      <h3>Want to share?</h3>
+                      <p>Got a project you want the rest of the world to know about. <a href="https://github.com/hfossli/Overconstrained">Fork</a> this site, contact <a href="https://github.com/hfossli/">hfossli</a> or let google group and slack channels know.</p>
                     </div>
                 </div>
             </div>

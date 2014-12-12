@@ -9,7 +9,8 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.7em;
 }
 
 p.small {
@@ -22,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.colors.primary.main }};
+    color: #{{ site.colors.primary.link }};
 }
 
 h1,
@@ -215,7 +216,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 4.0em;
     }
 
     header .intro-text .skills {
@@ -275,8 +276,19 @@ section {
 }
 
 section h2 {
-    margin: 0;
-    font-size: 3em;
+    margin: 0em 15px 0em;
+    font-size: 2em;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
+section h3 {
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+p.subtle {
+  font-size: 1.2em;
 }
 
 @media(max-width:767px) {
@@ -290,9 +302,29 @@ section h2 {
 }
 
 #projects .project-item {
-    margin: 0 0 25px 0 ;
+    margin: 0 0 3em 0 ;
 }
-
+#projects .project-item:nth-of-type(3n+1) {
+  clear: left;
+}
+@media only screen and (max-width : 900px) {
+    #projects .project-item {
+      width: 50%;
+      float: left;
+    }
+    #projects .project-item:nth-of-type(3n+1) {
+      clear: none;
+    }
+    #projects .project-item:nth-of-type(odd) {
+      clear: left;
+    }
+}
+@media only screen and (max-width : 600px) {
+  #projects .project-item {
+    width: 100%;
+    float: none;
+  }
+}
 #projects .projects-item .projects-link {
     display: block;
     position: relative;
@@ -428,16 +460,11 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.colors.secondary.main }};
+    background-color: #{{ site.colors.footer.main }};
 }
 
 footer .footer-col {
     margin-bottom: 50px;
-}
-
-footer .footer-below {
-    padding: 25px 0;
-    background-color: #{{ site.colors.secondary.subtle }};
 }
 
 .btn-social {
