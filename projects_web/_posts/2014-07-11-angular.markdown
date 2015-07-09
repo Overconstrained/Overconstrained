@@ -1,6 +1,6 @@
 ---
 layout: default
-maintainers: Alex Birkett
+maintainers: Nicola Peduzzi (@thenikso)
 homepage: http://thenikso.github.io/angular-autolayout/
 repo: https://github.com/thenikso/angular-autolayout
 language: JavaScript
