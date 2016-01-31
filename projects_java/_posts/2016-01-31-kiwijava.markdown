@@ -1,0 +1,11 @@
+---
+layout: default
+maintainers: Alex Birkett
+homepage: https://github.com/alexbirkett/kiwi-java
+repo: https://github.com/alexbirkett/kiwi-java
+language: Java
+name: Kiwi Java
+preamble: A Java port of the Kiwi C++ implementation of the Cassowary constraint solving algorithm
+description: A Java port of the Kiwi C++ implementation of the Cassowary constraint solving algorithm. The project objective is to create a faster Java implementation of the Cassowary constraint solving algorithm.
+
+---
