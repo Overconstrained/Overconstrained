@@ -1,0 +1,11 @@
+---
+layout: default
+maintainers: Sam Twidale
+homepage: https://github.com/Tw1ddle/haxe-kiwi
+repo: https://github.com/Tw1ddle/haxe-kiwi
+language: Haxe
+name: Haxe Kiwi
+preamble: A Haxe port of Kiwi C++ and Kiwi Java implementations of the Cassowary constraint solving algorithm.
+description: A Haxe port of the Kiwi C++ and Kiwi Java implementations of the Cassowary constraint solving algorithm. The goal of the project is to produce a cross-platform implementation of the Cassowary constraint solving algorithm that is compatible with all Haxe targets.
+
+---
