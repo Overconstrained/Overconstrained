@@ -6,10 +6,12 @@ skills: Cassowary projects and its community.
 fork-me-link: https://github.com/hfossli/Overconstrained
 
 project-platforms:
-  - title: Web
-    slug: web
   - title: C++
     slug: cplusplus
+  - title: Web
+    slug: web
+  - title: Haxe
+    slug: haxe
   - title: Java
     slug: java
   - title: Python
@@ -18,8 +20,6 @@ project-platforms:
     slug: objectivec
   - title: Smalltalk
     slug: smalltalk
-  - title: Haxe
-    slug: haxe
 
 # Color settings (hex-codes without the leading hash-tag)
 colors:
