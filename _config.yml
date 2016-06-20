@@ -12,6 +12,8 @@ project-platforms:
     slug: web
   - title: Haxe
     slug: haxe
+  - title: C
+    slug: c
   - title: Java
     slug: java
   - title: Python
