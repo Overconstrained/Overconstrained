@@ -5,6 +5,6 @@ homepage: https://github.com/starwing/amoeba
 repo: https://github.com/starwing/amoeba
 language: C
 name: Amoeba
-preamble: A Cassowary constraint solving algorithm in pure C.
+preamble: A Cassowary constraint solving algorithm in pure C and Lua.
 description: Amoeba is a pure C implement of Cassowary algorithm. Amoeba use Clean C, which is the cross set of ANSI C89 and C++, like the Lua language. Amoeba is a single-file library, for more single-file library, see the stb project here. Amoeba largely impressed by kiwi, the C++ implement of Cassowary algorithm, and the algorithm paper. Amoeba ships a hand written Lua binding. Amoeba has the same license with the Lua language.
 ---
