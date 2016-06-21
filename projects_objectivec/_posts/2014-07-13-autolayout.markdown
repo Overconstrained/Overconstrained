@@ -1,8 +1,8 @@
 ---
 layout: default
 maintainers: Apple
-homepage: https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/Introduction/Introduction.html
-repo: https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/Introduction/Introduction.html
+homepage: https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/index.html
+repo: https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/index.html
 language: Objective-C
 name: Auto Layout
 preamble: Even though this is proprieatry to Apple it is based on the same algorithm
