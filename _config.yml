@@ -22,6 +22,8 @@ project-platforms:
     slug: objectivec
   - title: Smalltalk
     slug: smalltalk
+  - title: Haskell
+    slug: haskell
 
 # Color settings (hex-codes without the leading hash-tag)
 colors:
