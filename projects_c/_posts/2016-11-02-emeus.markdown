@@ -1,0 +1,10 @@
+---
+layout: default
+maintainers: ebassi (Emmanuele Bassi) 
+homepage: https://github.com/ebassi/emeus
+repo: https://github.com/ebassi/emeus
+language: C
+name: Emeus
+preamble: Apple's Auto Layout and Visual Format Language for GTK+ (based on Cassowary constraints)
+description: Emeus is a pure C99 implementation of the Cassowary constraint solver, and it provides a container and layout manager based on Auto Layout rules for applications written using the GTK+ GUI toolkit. Additionally, it provides a Visual Format Language parser for generating the constraints for the layout. Emeus also generates introspection data that can be consumed by GTK+ bindings in languages such as JavaScript, Python, and Perl. Emeus is licensed under the LGPL v2.1 or later. 
+---
