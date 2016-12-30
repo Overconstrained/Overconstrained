@@ -1,0 +1,11 @@
+---
+layout: default
+maintainers: yglukhov
+homepage: https://github.com/yglukhov/kiwi
+repo: https://github.com/yglukhov/kiwi
+language: Nim
+name: Kiwi
+preamble: A Nim port of the Kiwi-Java implementation of the Cassowary constraint solving algorithm
+description: A Nim port of the Kiwi-Java implementation of the Cassowary constraint solving algorithm. The project is compatible with Nim's both native and JavaScript backends.
+
+---
