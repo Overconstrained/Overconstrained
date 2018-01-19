@@ -26,6 +26,8 @@ project-platforms:
     slug: haskell
   - title: Nim
     slug: nim
+  - title: Rust
+    slug: rust
 
 # Color settings (hex-codes without the leading hash-tag)
 colors:
