@@ -1,7 +1,7 @@
 ---
 layout: default
 maintainers: thegrid.io
-homepage: http://gridstylesheets.org/
+homepage: http://gss.github.io/
 repo: https://github.com/gss/engine/
 language: JavaScript + more
 name: Grid Style Sheets

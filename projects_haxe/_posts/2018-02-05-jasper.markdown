@@ -1,0 +1,11 @@
+---
+layout: default
+maintainers: Jeremy Meltingtallow
+homepage: https://github.com/PongoEngine/jasper
+repo: https://github.com/PongoEngine/jasper
+language: Haxe
+name: Jasper
+preamble: Haxe port of Kiwi's implementation of the cassowary algorithm.
+description: The motivation to develop Jasper was to port a cassowary implementation to haxe. There were already two projects but one was not completely typed and the other did not use operator overloading for easy constraint creation. Jasper's goal is to be completely typed and also use the same operators for constraint development as the c++ implementation.
+
+---
