@@ -28,6 +28,8 @@ project-platforms:
     slug: nim
   - title: Rust
     slug: rust
+  - title: Common Lisp
+    slug: commonlisp
   - title: Swift
     slug: swift
 
