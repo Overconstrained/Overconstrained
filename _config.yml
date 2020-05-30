@@ -26,6 +26,8 @@ project-platforms:
     slug: haskell
   - title: Nim
     slug: nim
+  - title: Go
+    slug: go
   - title: Rust
     slug: rust
   - title: Common Lisp

@@ -1,0 +1,10 @@
+---
+layout: default
+maintainers: Kenta Iwasaki
+homepage: https://github.com/lithdew/casso
+repo: https://github.com/lithdew/casso
+language: Go
+name: casso
+preamble: A Go implementation of the Cassowary constraint solving algorithm.
+description: casso is a low-level Go implementation of the popular Cassowary constraint solving algorithm.
+---
