@@ -34,6 +34,8 @@ project-platforms:
     slug: commonlisp
   - title: Swift
     slug: swift
+  - title: Elixir
+    slug: elixir
 
 # Color settings (hex-codes without the leading hash-tag)
 colors:
