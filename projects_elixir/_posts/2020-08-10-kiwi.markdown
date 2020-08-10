@@ -1,0 +1,11 @@
+---
+layout: default
+maintainers: patrick7777776
+homepage: https://github.com/patrick7777776/Furlong
+repo: https://github.com/patrick7777776/Furlong
+language: Elixir
+name: Furlong
+preamble: Elixir port of Kiwi-Java
+description: Elixir port of the Kiwi-Java implementation of the Cassowary constraint solving algorithm
+
+---
